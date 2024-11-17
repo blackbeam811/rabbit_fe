@@ -109,3 +109,8 @@
   font-weight: 900;
   font-style: italic;
 }
+
+@font-face {
+  font-family: "shine";
+  src: local("shine"), url("./assets/fonts/shine.ttf") format(truetype);
+}

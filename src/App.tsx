@@ -7,10 +7,10 @@ const RiousLandingPage = () => {
     <>
       <div className="fixed top-4 flex justify-start items-center pl-4 sm:pl-8">
         <img className="rounded-full w-6 sm:w-8" src="./logo.JPEG" alt="logo" />
-        <div className="text-[#114EA9] text-[1rem] sm:text-[1.4rem] ml-1 comic-neue-bold">
+        <div className="text-[#114EA9] text-[1rem] sm:text-[1.4rem] ml-1 font-bubble">
           Rious
         </div>
-        <div className="text-[#F5DF15] text-[1rem] sm:text-[1.4rem] ml-3 comic-neue-bold">
+        <div className="text-[#F5DF15] text-[1rem] sm:text-[1.4rem] ml-3 font-bubble">
           The Rabbit
         </div>
       </div>
@@ -68,10 +68,10 @@ const RiousLandingPage = () => {
         </div>
         <div className="text-center mt-10">
           <div className="sm:flex gap-3">
-            <div className="text-[#03C3FF] text-[1.2rem] sm:text-[2rem] font-bold">
+            <div className="text-[#03C3FF] text-[1.2rem] sm:text-[2rem] font-bubble">
               Combibing the power of
             </div>
-            <div className="text-[#F5DF15] text-[1.2rem] sm:text-[2rem] font-bold">
+            <div className="text-[#F5DF15] text-[1.2rem] sm:text-[2rem] font-bubble">
               Staking and Gaming
             </div>
           </div>

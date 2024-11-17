@@ -8,6 +8,9 @@ export default {
           xs: "320px",
         },
       },
+      fontFamily: {
+        bubble: ["shine"],
+      },
     },
   },
   plugins: [],
