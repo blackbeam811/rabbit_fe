@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-image: url("./bg1.png");
-  background-size: 100% 100%;
-}
-
 .comic-neue-light {
   font-family: "Comic Neue", cursive;
   font-weight: 300;

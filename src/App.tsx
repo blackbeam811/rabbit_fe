@@ -12,6 +12,10 @@ const RiousLandingPage = () => {
       </div>
       <div className="w-screen h-screen overflow-auto flex flex-col justify-center items-center comic-neue-bold">
         <div className="relative ">
+          <div className="fixed top-0 left-0 -z-20">
+            <img src="./bg1.png" className="w-screen h-screen" />
+          </div>
+
           <div className="max-w-sm sm:max-w-md">
             <Player
               src="./RabbitAnimation.json"
@@ -32,28 +36,28 @@ const RiousLandingPage = () => {
               <Player src="./Grass.json" className="w-[90px]" loop autoplay />
               <Player src="./Grass.json" className="w-[60px]" loop autoplay />
             </div>
-            <div className="absolute top-0 -left-32">
+            <div className="hidden sm:block absolute top-0 -left-32">
               <Player src="./Grass.json" className="w-[70px]" loop autoplay />
             </div>
-            <div className="absolute top-10 -left-44">
+            <div className="hidden sm:block absolute top-10 -left-44">
               <Player src="./Grass.json" className="w-[90px]" loop autoplay />
             </div>
-            <div className="absolute top-0 -left-56">
+            <div className="hidden sm:block absolute top-0 -left-56">
               <Player src="./Grass.json" className="w-[90px]" loop autoplay />
             </div>
-            <div className="absolute top-44 -left-24">
+            <div className="hidden sm:block absolute top-44 -left-24">
               <Player src="./Grass.json" className="w-[90px]" loop autoplay />
             </div>
-            <div className="absolute top-0 -right-12">
+            <div className="hidden sm:block absolute top-0 -right-12">
               <Player src="./Grass.json" className="w-[70px]" loop autoplay />
             </div>
-            <div className="absolute top-10 -right-44">
+            <div className="hidden sm:block absolute top-10 -right-44">
               <Player src="./Grass.json" className="w-[90px]" loop autoplay />
             </div>
-            <div className="absolute top-12 -right-56">
+            <div className="hidden sm:block absolute top-12 -right-56">
               <Player src="./Grass.json" className="w-[90px]" loop autoplay />
             </div>
-            <div className="absolute top-44 -right-24">
+            <div className="hidden sm:block absolute top-44 -right-24">
               <Player src="./Grass.json" className="w-[90px]" loop autoplay />
             </div>
           </div>
