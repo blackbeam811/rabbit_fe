@@ -6,9 +6,13 @@ const RiousLandingPage = () => {
   return (
     <>
       <div className="fixed top-4 flex justify-start items-center pl-4 sm:pl-8">
-        <img className="rounded-full w-6" src="./logo.JPEG" alt="logo" />
-        <div className="text-[#114EA9] ml-1 comic-neue-bold">Rious</div>
-        <div className="text-[#F5DF15] ml-3 comic-neue-bold">The Rabbit</div>
+        <img className="rounded-full w-6 sm:w-8" src="./logo.JPEG" alt="logo" />
+        <div className="text-[#114EA9] text-[1rem] sm:text-[1.4rem] ml-1 comic-neue-bold">
+          Rious
+        </div>
+        <div className="text-[#F5DF15] text-[1rem] sm:text-[1.4rem] ml-3 comic-neue-bold">
+          The Rabbit
+        </div>
       </div>
       <div className="w-screen h-screen overflow-auto flex flex-col justify-center items-center comic-neue-bold">
         <div className="relative ">
@@ -76,10 +80,10 @@ const RiousLandingPage = () => {
           </div>
         </div>
         <div className="flex justify-between gap-3 items-center mt-10">
-          <div className="flex justify-center items-center bg-[#92CC5A] text-white text-[2rem] sm:text-[2.2rem] rounded-full px-8 py-1.5">
+          <div className="flex justify-center items-center bg-[#92CC5A] text-white text-[1.1rem] truncate sm:text-[2.2rem] rounded-full px-8 py-1.5">
             Open App
           </div>
-          <div className="flex justify-center items-center bg-[#92CC5A] text-white text-[2rem] sm:text-[2.2rem] rounded-full px-8 py-1.5">
+          <div className="flex justify-center items-center bg-[#92CC5A] text-white text-[1.1rem] truncate sm:text-[2.2rem] rounded-full px-8 py-1.5">
             WhitePaper
           </div>
         </div>
