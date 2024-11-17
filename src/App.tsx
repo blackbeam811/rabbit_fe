@@ -80,23 +80,29 @@ const RiousLandingPage = () => {
           </div>
         </div>
         <div className="flex justify-between gap-3 items-center mt-10">
-          <div className="flex justify-center items-center bg-[#92CC5A] text-white text-[1.1rem] truncate sm:text-[2.2rem] rounded-full px-8 py-1.5">
+          <a
+            href="#"
+            className="flex justify-center items-center bg-[#92CC5A] text-white text-[1.1rem] truncate sm:text-[2.2rem] rounded-full px-8 py-1.5"
+          >
             Open App
-          </div>
-          <div className="flex justify-center items-center bg-[#92CC5A] text-white text-[1.1rem] truncate sm:text-[2.2rem] rounded-full px-8 py-1.5">
+          </a>
+          <a
+            href="#"
+            className="flex justify-center items-center bg-[#92CC5A] text-white text-[1.1rem] truncate sm:text-[2.2rem] rounded-full px-8 py-1.5"
+          >
             WhitePaper
-          </div>
+          </a>
         </div>
         <div className="flex w-full justify-center gap-6 mt-10">
-          <div className="p-3 bg-[#1166C5] bg-opacity-60 rounded-full">
+          <a href="#" className="p-3 bg-[#1166C5] bg-opacity-60 rounded-full">
             <FaTwitter className="text-white" />
-          </div>
-          <div className="p-3 bg-[#1166C5] bg-opacity-60 rounded-full">
+          </a>
+          <a href="#" className="p-3 bg-[#1166C5] bg-opacity-60 rounded-full">
             <SiTelegram className="text-white" />
-          </div>
-          <div className="p-3 bg-[#1166C5] bg-opacity-60 rounded-full">
+          </a>
+          <a href="#" className="p-3 bg-[#1166C5] bg-opacity-60 rounded-full">
             <FaInstagram className="text-white" />
-          </div>
+          </a>
         </div>
       </div>
     </>
