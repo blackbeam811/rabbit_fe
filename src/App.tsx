@@ -63,23 +63,23 @@ const RiousLandingPage = () => {
           </div>
         </div>
         <div className="text-center mt-10">
-          <div className="sm:flex space-x-1">
-            <div className="text-[#03C3FF] text-[1.2rem] font-bold">
+          <div className="sm:flex gap-3">
+            <div className="text-[#03C3FF] text-[1.2rem] sm:text-[2rem] font-bold">
               Combibing the power of
             </div>
-            <div className="text-[#F5DF15] text-[1.2rem] font-bold">
+            <div className="text-[#F5DF15] text-[1.2rem] sm:text-[2rem] font-bold">
               Staking and Gaming
             </div>
           </div>
-          <div className="text-[#C1F4C3] font-bold text-[0.7rem] mt-6">
+          <div className="text-[#C1F4C3] font-bold text-[0.7rem] sm:text-[1.4rem] mt-6">
             Presenting Rious The Rabbit
           </div>
         </div>
         <div className="flex justify-between gap-3 items-center mt-10">
-          <div className="flex justify-center items-center bg-[#92CC5A] text-white text-base rounded-full px-8 py-1.5">
+          <div className="flex justify-center items-center bg-[#92CC5A] text-white text-[2rem] sm:text-[2.2rem] rounded-full px-8 py-1.5">
             Open App
           </div>
-          <div className="flex justify-center items-center bg-[#92CC5A] text-white text-base rounded-full px-8 py-1.5">
+          <div className="flex justify-center items-center bg-[#92CC5A] text-white text-[2rem] sm:text-[2.2rem] rounded-full px-8 py-1.5">
             WhitePaper
           </div>
         </div>
